@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "148243383587",
+    "firebase_url": "https://bibliotecamobile-78e9b.firebaseio.com",
+    "project_id": "bibliotecamobile-78e9b",
+    "storage_bucket": "bibliotecamobile-78e9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148243383587:android:d1e3c3087c01ebef693896",
+        "android_client_info": {
+          "package_name": "com.example.biblioteca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148243383587-5rgb9odffueup1u9c5i73e93jtign2vq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7XbESh6gA9cpy4T9LhrV0boc0dngVoao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148243383587-5rgb9odffueup1u9c5i73e93jtign2vq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

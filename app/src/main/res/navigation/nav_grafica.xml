@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_grafica"
+    app:startDestination="@id/listaLivroFragment">
+
+    <fragment
+        android:id="@+id/listaLivroFragment"
+        android:name="com.example.biblioteca.ui.ListaLivroFragment"
+        android:label="lista_de_livros"
+        tools:layout="@layout/lista_de_livros" >
+        <action
+            android:id="@+id/action_lista_para_detalhes_livros"
+            app:destination="@id/livroFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/livroFragment"
+        android:name="com.example.biblioteca.ui.LivroFragment"
+        android:label="livro_fragment"
+        tools:layout="@layout/livro_fragment" />
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.biblioteca.Fragment1"
+        android:label="fragment_1"
+        tools:layout="@layout/fragment_1" />
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.biblioteca.Fragment2"
+        android:label="fragment_2"
+        tools:layout="@layout/fragment_2" />
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.biblioteca.Fragment3"
+        android:label="fragment_3"
+        tools:layout="@layout/fragment_3" />
+</navigation>
